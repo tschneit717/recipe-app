@@ -1,0 +1,62 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  font-family: Lato;
+  position: relative;
+
+  background: transparentize($dark-primary, 0.65);
+  border: 3px solid transparentize($dark-primary, 0.95);
+  width: 100%;
+
+  &-wrapper {
+    border: 2px solid transparentize($light-primary, 0.75);
+    padding: 35px 70px;
+  }
+  label {
+    font-family: Lato;
+    font-style: italic;
+    color: $light-primary;
+    display: block;
+  }
+  input {
+    display: block;
+    margin-bottom: 18px;
+    &[type=text],
+    &[type=password],
+    &[type=email] {
+      border: 2px solid transparentize($light-primary, 0.75);
+      padding: 10px;
+      width: 80%;
+      background: none;
+      font-family: Lato;
+      font-style: italic;
+      color: $light-primary;
+    }
+    &::-webkit-file-upload-button {
+      color: $light-secondary;
+      background: transparentize($dark-primary, 0.75);
+      border: 2px solid transparentize($light-primary, 0.75);
+      outline: 4px solid transparentize($dark-primary, 0.75);
+      margin: 4px;
+      padding: 15px 30px 15px 30px;
+      display: inline-block;
+      font-family: Lato;
+      font-style: italic;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: bold;
+      position: absolute;
+      left: 73px;
+    }
+    &[type='file'] {
+      font-size: 20px;
+      padding-left: 20px;
+      color: $light-primary;
+      height: 60px;
+      position: static;
+    }
+    &[type='submit'] {
+      margin: 4px;
+    }
+  }
+}

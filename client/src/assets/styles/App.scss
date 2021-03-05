@@ -1,0 +1,85 @@
+@import './variables/_colors';
+@import './utils/mixins';
+@import './utils/fonts';
+
+@import './components/header';
+@import './components/footer';
+@import './components/button';
+@import './components/itemArea';
+@import './components/itemCard';
+@import './components/activeItem';
+@import './components/uploadForm';
+
+body {
+  overflow: hidden;
+  font-family: Lato;
+  font-style: italic;
+}
+
+#root {
+  background: transparentize($dark-primary, 0.5);
+  backdrop-filter: blur(5px);
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1 1 auto;
+  height: 100%;
+  max-height: 100vh;
+}
+
+main {
+  position: relative;
+  height: calc(100vh - 115px - 125px);
+  width: 100%;
+  overflow: hidden;
+
+  .main-content {
+    &__wrapper {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 50px 0px 100px 100px;
+
+      &-items {
+        width: 100%;
+        margin-left: 10px;
+      }
+
+      &-buttons {
+        width: 100%;
+        margin: 30px 10px 0 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+      &.-form {
+        flex-direction:column;
+      }
+    }
+
+    &__initial-button--wrapper {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+.-light {
+  color: $light-primary;
+}
+.-dark {
+  color: $dark-primary;
+}

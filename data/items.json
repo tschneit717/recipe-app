@@ -1,0 +1,102 @@
+[{
+    "id": 0,
+    "itemName": "Acorn",
+    "img": "BotW_Acorn_Icon.png",
+    "details": ""
+  },
+  {
+    "id": 1,
+    "itemName": "Apple",
+    "img": "BotW_Apple_Icon.png"
+  },
+  {
+    "id": 2,
+    "itemName": "Apple",
+    "img": "BotW_Apple_Icon.png"
+  },
+  {
+    "id": 3,
+    "itemName": "Bird Egg",
+    "img": "BotW_Bird_Egg_Icon.png"
+  },
+  {
+    "id": 4,
+    "itemName": "Cane Sugar",
+    "img": "BotW_Cane_Sugar_Icon.png"
+  },
+  {
+    "id": 5,
+    "itemName": "Hearty Bass",
+    "img": "BotW_Hearty_Bass_Icon.png"
+  },
+  {
+    "id": 6,
+    "itemName": "Hylian Rice",
+    "img": "BotW_Hylian_Rice_Icon.png"
+  },
+  {
+    "id": 7,
+    "itemName": "Hylian Shroom",
+    "img": "BotW_Hylian_Shroom_Icon.png"
+  },
+  {
+    "id": 8,
+    "itemName": "Hyrule Bass",
+    "img": "BotW_Hyrule_Bass_Icon.png"
+  },
+  {
+    "id": 9,
+    "itemName": "Hyrule Herb",
+    "img": "BotW_Hyrule_Herb_Icon.png"
+  },
+  {
+    "id": 10,
+    "itemName": "Palm Fruit",
+    "img": "BotW_Palm_Fruit_Icon.png"
+  },
+  {
+    "id": 11,
+    "itemName": "Prime Meat",
+    "img": "BotW_Raw_Prime_Meat_Icon.png"
+  },
+  {
+    "id": 12,
+    "itemName": "Spicy Pepper",
+    "img": "BotW_Spicy_Pepper_Icon.png"
+  },
+  {
+    "id": 13,
+    "itemName": "Stamella Shroom",
+    "img": "BotW_Stamella_Shroom_Icon.png"
+  },
+  {
+    "id": 14,
+    "itemName": "Steamed Fruit",
+    "img": "BotW_Steamed_Fruit_Icon.png"
+  },
+  {
+    "id": 15,
+    "itemName": "Steamed Fruit",
+    "img": "BotW_Steamed_Fruit_Icon.png"
+  },
+  {
+    "id": 16,
+    "itemName": "Steamed Fruit",
+    "img": "BotW_Steamed_Fruit_Icon.png"
+  },
+  {
+    "id": 17,
+    "itemName": "Steamed Fruit",
+    "img": "BotW_Steamed_Fruit_Icon.png"
+  },
+  {
+    "id": 18,
+    "itemName": "Steamed Fruit",
+    "img": "BotW_Steamed_Fruit_Icon.png"
+  },
+  {
+    "id": 19,
+    "itemName": "Steamed Fruit",
+    "img": "BotW_Steamed_Fruit_Icon.png"
+  }
+]
